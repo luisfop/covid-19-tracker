@@ -1,13 +1,27 @@
-import React from 'react';
+import React from "react";
 
+import {fetchData} from './api/index';
 
-function App() {
-  return (
-    <div>
-      <h1>COVID - 19</h1>
+class App extends React.Component {
 
-    </div>
-  );
+  state = {
+    data: {},
+  }
+
+  async componentDidMount(){
+    // console.log('Component did mount')
+
+    const data = await fetchData();
+    console.log('Data' , data)
+  }
+  
+  render() {
+    return (
+      <div>
+        <h1>COVID - 19</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
