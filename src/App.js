@@ -1,6 +1,9 @@
 import React from "react";
+import styles from './App.module.css';
 
-import {fetchData} from './api/index';
+import { fetchData } from './api/index';
+
+import Card from './components/card/card';
 
 class App extends React.Component {
 
@@ -9,16 +12,18 @@ class App extends React.Component {
   }
 
   async componentDidMount(){
-    // console.log('Component did mount')
-
-    const data = await fetchData();
-    console.log('Data' , data)
+    const fetchedData = await fetchData();
+    console.log('fetchedData' , fetchedData)
+    this.setState( {data: fetchedData} );
+    console.log('data state =>', this.state.data)
   }
   
   render() {
+    
     return (
-      <div>
-        <h1>COVID - 19</h1>
+      <div className={ styles.container}>
+          <h1 className={styles.title}>COVID - 19</h1>
+          <Card data={this.state.data}/>
       </div>
     );
   }

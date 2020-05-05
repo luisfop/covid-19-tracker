@@ -1,0 +1,21 @@
+body{
+    background-color: lightgray;
+};
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title {
+    color: red;
+    font-size: 90px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
