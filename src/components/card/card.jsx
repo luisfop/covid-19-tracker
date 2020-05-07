@@ -47,7 +47,6 @@ const card = ({data: {confirmed, recovered, deaths, lastUpdate}} ) => {
                         <Typography variant="body2">Numero de mortos pelo COVID-19</Typography>   
                     </CardContent>
                 </Grid>
-
             </Grid>
             
         </div>
