@@ -15,15 +15,11 @@ class App extends React.Component {
 
   async componentDidMount(){
     const fetchedData = await fetchData();
-    // console.log('fetchedData' , fetchedData)
     this.setState( {data: fetchedData} );
-    // console.log('data state =>', this.state.data)
   }
 
    countryHandler = async(country) => {
-    // fetch the data
     const countryData = await fetchData(country);
-    // set the state
     this.setState({data: countryData, country: country});
 
   }

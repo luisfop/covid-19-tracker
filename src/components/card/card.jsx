@@ -6,9 +6,11 @@ import CountUp from 'react-countup';
 
 
 const card = ({data: {confirmed, recovered, deaths, lastUpdate}} ) => {
+    
     if(!confirmed){
         return 'LOADING...'
     }
+    
     return(
         <div className={styles.container}>
             <Grid container spacing={3} justify="center">
