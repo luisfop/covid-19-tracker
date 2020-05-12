@@ -1,4 +1,8 @@
-.formControl{
-    width: 30%;
-    margin-bottom: 30px !important;
+.pickerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.optionPicker{
+    width: 300px;
 }
