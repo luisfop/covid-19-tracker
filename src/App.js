@@ -22,10 +22,10 @@ class App extends React.Component {
 
    countryHandler = async(country) => {
     // fetch the data
-
-    console.log('This is the countryHandler function activated ->' , country);
-
+    const countryData = await fetchData(country);
     // set the state
+    this.setState({data: countryData, country: country});
+
   }
 
   
