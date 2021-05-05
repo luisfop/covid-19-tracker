@@ -3,7 +3,7 @@
 
 
 
-![](https://s3.gifyu.com/images/covid-tracker.gif)
+[![covid-tracker.th.gif](https://s3.gifyu.com/images/covid-tracker.th.gif)](https://gifyu.com/image/5nNS)
   
 
 This project called Covid19-Tracker, was created for study purposes. The application is a SPA ( single page application).
