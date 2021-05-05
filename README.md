@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Welcome to Covid-19-Tracker!
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](https://gifyu.com/image/5nNS)
+  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This project called Covid19-Tracker, was created for study purposes. The application is a SPA ( single page application).
+I fetched data from an external API using axios. For the development of the app, I used ReactJs, ReactChart for charts and ReactCountUp.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# How to run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+**Clone**:
+To clone the project please go to:
+https://github.com/luisfop/covid-19-tracker/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+On the terminal execute: 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    git clone: https://github.com/luisfop/covid-19-tracker/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Open the covid-19-tracker folder:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    cd covid-19-tracker/
+    
+Execute the command :
 
-## Learn More
+    npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   or
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    yarn install
 
-### Code Splitting
+To run the application execute the command line:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    npm run serve
+    or
+    yarn run serve
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+# How to Use
 
-### Making a Progressive Web App
+Open the browser and go to url:
+ https://localhost:8080
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The user can check any COVID-19 cases around the world just like the gif above. There are two different charts, one that shows the cases around and the second that shows the Country selected.
