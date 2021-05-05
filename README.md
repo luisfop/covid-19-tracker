@@ -4,7 +4,6 @@
 
 
 ![](https://s3.gifyu.com/images/covid-tracker.gif)
-
   
 
 This project called Covid19-Tracker, was created for study purposes. The application is a SPA ( single page application).
