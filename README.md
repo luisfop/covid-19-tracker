@@ -3,7 +3,7 @@
 
 
 
-![enter image description here](https://s3.gifyu.com/images/covid-tracker.gif)
+![](https://s3.gifyu.com/images/covid-tracker.gif)
 
   
 
